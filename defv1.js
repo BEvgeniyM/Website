@@ -1,28 +1,18 @@
-//defer
-/*
-var canvas = document.createElement("canvas");
-var ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-document.body.appendChild(canvas);
-var width=window.innerWidth, height =window.innerHeight;
-*/
 var canvas = document.getElementById ("canvas");
 var ctx = canvas.getContext("2d");
-canvas.width = window.innerWidth*10/12;
+canvas.width = window.innerWidth*11/12;
 canvas.height = window.innerHeight;
-//document.body.appendChild(canvas);
 var width=window.innerWidth, height =window.innerHeight;
-
-
-//var path = "0.png";
-//var backgroundP = LoadImage (path);
-
 var scaleX, scaleY, str ;
 var myArray = new Array();
 var DataStr = new Array(100);
 var heightPlas = 0 ;
 var f = false;
+
+//var path = "0.png";
+//var backgroundP = LoadImage (path);
+
+
 //a = document.getElementsByTagName('html');
 //a[0].style.transform = "scale(0.7)";
 
