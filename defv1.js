@@ -1,10 +1,19 @@
 //defer
+/*
 var canvas = document.createElement("canvas");
 var ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 document.body.appendChild(canvas);
 var width=window.innerWidth, height =window.innerHeight;
+*/
+var canvas = document.getElementById ("canvas");
+var ctx = canvas.getContext("2d");
+canvas.width = window.innerWidth*10/12;
+canvas.height = window.innerHeight;
+//document.body.appendChild(canvas);
+var width=window.innerWidth, height =window.innerHeight;
+
 
 //var path = "0.png";
 //var backgroundP = LoadImage (path);
