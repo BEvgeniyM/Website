@@ -118,7 +118,6 @@ function parseContent(content) {
     //textqq = String(content);
     //textqq = JSON.stringify(content);
     textqq = JSON.stringify(content) +"END";
-
     //alert(textqq );
 
     //https://javascript.ru/forum/css-html/60617-chtenie-fajjla-na-storone-klienta-2.html

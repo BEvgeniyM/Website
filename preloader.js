@@ -10,9 +10,6 @@ classcanvas.style.position="fixed";
 classcanvas.style.top ="0";
 classcanvas.style.left = "0";
 classcanvas.style.zIndex ="10";
-// classcanvas.classList.remove = (".col-lg-10");
-// classcanvas.classList.remove = (".col-md-9");
-// classcanvas.classList.remove = (".col-sm-12");
 classcanvas.classList.value = "";
 
 classcanvas.style.width= window.innerWidth;
