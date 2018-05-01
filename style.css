@@ -4,17 +4,22 @@
     margin: 0 auto;
     padding: 0;
     text-transform: uppercase;
+
 }
 body{
     display: block;
-    background: #c9c9c9;
+    position: relative;
+    background: url("img/ReceiverFullScreenBackground_46E559C0E6B5A27B.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     }
+
 h{
 
     font-family: 'Anton', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: black;
+    color: #fdfdfd;
 }
 header{
 height: 100px;
@@ -42,16 +47,19 @@ hr{
 .w180 {
 
 }
+input {
+    display: none;
+}
 
 /*  для стилизации кнопок */
-a {
-
+a, label {
+    opacity: 1;
     height: 30px;
     white-space: nowrap;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    color: #070707;
+    color: #000000;
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -64,10 +72,8 @@ a {
     box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
     transition: .5s;
 
-
-
 }
-a:hover {
+a:hover , label:hover {
     box-shadow: 0 0 0 0 rgba(0,40,120,0);
     background-position: 0 0;
     text-decoration: none;
@@ -75,9 +81,10 @@ a:hover {
 
 /** фиксы  */
 .col-md-2 {
-
     padding-right: 8px;
-
+}
+span {
+    border: 0px ;
 }
 @media (max-width: 600px) {
     body {     background: #c9271b;
