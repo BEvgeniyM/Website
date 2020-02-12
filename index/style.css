@@ -1,0 +1,86 @@
+*{
+    border: 1px solid #575757;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    text-transform: uppercase;
+}
+body{
+    display: block;
+    background: #c9c9c9;
+    }
+h{
+
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+header{
+height: 100px;
+    }
+section{
+    height: 800px;
+    align-content:flex-start;
+    justify-content: center;
+}
+footer{
+ height: 100px;
+}
+iframe{
+    position: fixed;
+    z-index: -1000;
+}
+hr{
+    width: 100%;
+}
+
+.canvas{
+    margin: 0;
+    padding: 0;
+    }
+.w180 {
+
+}
+
+/*  для стилизации кнопок */
+a {
+
+    height: 30px;
+    white-space: nowrap;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #070707;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    padding: 1px;
+    margin: 2px;
+    border-radius: 0px;
+    background-image: linear-gradient(45deg, #c9c9c9 0%, #b0b0b0 50%, rgba(102, 162, 200, 0.59) 100%);
+    background-position: 100% 0;
+    background-size: 200% 200%;
+    box-shadow: 0 16px 32px 0 rgba(0,40,120,.35);
+    transition: .5s;
+
+
+
+}
+a:hover {
+    box-shadow: 0 0 0 0 rgba(0,40,120,0);
+    background-position: 0 0;
+    text-decoration: none;
+}
+
+/** фиксы  */
+.col-md-2 {
+
+    padding-right: 8px;
+
+}
+@media (max-width: 600px) {
+    body {     background: #c9271b;
+
+    }
+}
